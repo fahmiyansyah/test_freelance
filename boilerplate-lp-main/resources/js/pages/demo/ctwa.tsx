@@ -1555,8 +1555,9 @@ export default function LandingPage() {
                             ref={lmsVideoRef}
                             onPlay={() => setShowLmsOverlay(false)}
                             controls
-                            preload="metadata"
+                            preload="none"
                             playsInline
+                            poster="/assets/lms-showcase-poster.webp"
                             className="[display:block] [aspect-ratio:16/9] [width:100%] [object-fit:cover] [background:#151515]"
                         >
                             <source
